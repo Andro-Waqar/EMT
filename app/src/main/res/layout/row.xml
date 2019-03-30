@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/mainIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:id="@+id/maintile"
+            android:text="Title"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/colorAccent"
+            android:layout_marginEnd="40dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/maindescription"
+            android:text="Description"
+            android:textSize="20sp"
+            android:layout_below="@+id/maintile"
+            android:layout_marginEnd="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

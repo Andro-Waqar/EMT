@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/FormulaFragment"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_logo"
+            android:drawablePadding="8dp"
+            android:text="EMT"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"/>
+
+        <ImageButton
+            android:onClick="exit_app"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_exit"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:fadeScrollbars="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:orientation="vertical"
+                android:padding="0.0dip"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_margin="5.0dip">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dip"
+                        android:layout_weight="1"
+                        card:cardBackgroundColor="@color/colorWhite"
+                        card:cardCornerRadius="15dp"
+                        card:cardElevation="5.0dip">
+
+                        <Button
+                            android:onClick="btn_first_aid"
+                            android:id="@+id/btn_first_aid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@color/colorWhite"
+                            android:drawableTop="@drawable/ic_firstaid"
+                            android:drawablePadding="15dp"
+                            android:padding="10dp"
+                            android:text="FIRST AID"
+                            android:textColor="@color/colorBlack" />
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dip"
+                        android:layout_weight="1"
+                        card:cardBackgroundColor="@color/colorWhite"
+                        card:cardCornerRadius="15dp"
+                        card:cardElevation="5.0dip">
+
+                        <Button
+                            android:onClick="btn_ambulance"
+                            android:id="@+id/btn_ambulance"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="10dp"
+                            android:drawablePadding="15dp"
+                            android:background="@color/colorWhite"
+                            android:textColor="@color/colorBlack"
+                            android:text="AMBULANCE"
+                            android:drawableTop="@drawable/ic_ambulance" />
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dip"
+                        android:layout_weight="1"
+                        card:cardBackgroundColor="@color/colorWhite"
+                        card:cardCornerRadius="15dp"
+                        card:cardElevation="5.0dip">
+
+                        <Button
+                            android:onClick="btn_find_blood"
+                            android:id="@+id/btn_find_blood"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="10dp"
+                            android:drawablePadding="15dp"
+                            android:background="@color/colorWhite"
+                            android:textColor="@color/colorBlack"
+                            android:text="FIND BLOOD"
+                            android:drawableTop="@drawable/ic_find_blood" />
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dip"
+                        android:layout_weight="1"
+                        card:cardBackgroundColor="@color/colorWhite"
+                        card:cardCornerRadius="15dp"
+                        card:cardElevation="5.0dip">
+
+                        <Button
+                            android:onClick="btn_pharmacy"
+                            android:id="@+id/btn_pharmacy"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="10dp"
+                            android:drawablePadding="15dp"
+                            android:background="@color/colorWhite"
+                            android:textColor="@color/colorBlack"
+                            android:text="PHARMACY"
+                            android:drawableTop="@drawable/ic_pharmacy" />
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="140.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dip"
+                        android:layout_weight="1"
+                        card:cardBackgroundColor="@color/colorWhite"
+                        card:cardCornerRadius="15dp"
+                        card:cardElevation="5.0dip">
+
+                        <Button
+                            android:onClick="btn_helpline"
+                            android:id="@+id/btn_helpline"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="10dp"
+                            android:drawablePadding="15dp"
+                            android:background="@color/colorWhite"
+                            android:textColor="@color/colorBlack"
+                            android:text="HELPLINE"
+                            android:drawableTop="@drawable/ic_help" />
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+

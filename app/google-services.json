@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084222317726",
+    "firebase_url": "https://emtfirebaseproject-cbfbd.firebaseio.com",
+    "project_id": "emtfirebaseproject-cbfbd",
+    "storage_bucket": "emtfirebaseproject-cbfbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084222317726:android:59ee4b14e830324f",
+        "android_client_info": {
+          "package_name": "com.softwindevs.emt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084222317726-sk3mmquvkdh38tkpd09pag4sarnv5us0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwindevs.emt",
+            "certificate_hash": "e19101bc567d1acc72f33cf375702a3d64d0408c"
+          }
+        },
+        {
+          "client_id": "1084222317726-tg2blg2ddq9rk29cr8p98m6uqe1u2l0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo3KfGq6gdxNGQIWorZcXT50apUJ5dohY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084222317726-tg2blg2ddq9rk29cr8p98m6uqe1u2l0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
